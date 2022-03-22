@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-tmplpro-v0_1_1.flake = false;
+  inputs.src-tmplpro-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-tmplpro-v0_1_1.owner = "mjfh";
-  inputs.src-tmplpro-v0_1_1.ref   = "v0_1_1";
   inputs.src-tmplpro-v0_1_1.repo  = "nim-tmplpro.git";
   inputs.src-tmplpro-v0_1_1.type  = "github";
   
