@@ -10,7 +10,7 @@
   inputs.src-tmplpro-v0_1_0.flake = false;
   inputs.src-tmplpro-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-tmplpro-v0_1_0.owner = "mjfh";
-  inputs.src-tmplpro-v0_1_0.repo  = "nim-tmplpro.git";
+  inputs.src-tmplpro-v0_1_0.repo  = "nim-tmplpro";
   inputs.src-tmplpro-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
