@@ -1,5 +1,5 @@
 {
-  description = ''Text template processor, basic capabilities'';
+  description = ''Text template processor, handy not only for CGI'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,8 +9,8 @@
   
   inputs.src-tmplpro-v0_1_1.flake = false;
   inputs.src-tmplpro-v0_1_1.owner = "mjfh";
-  inputs.src-tmplpro-v0_1_1.ref   = "refs/tags/v0.1.1";
-  inputs.src-tmplpro-v0_1_1.repo  = "nim-tmplpro";
+  inputs.src-tmplpro-v0_1_1.ref   = "v0_1_1";
+  inputs.src-tmplpro-v0_1_1.repo  = "nim-tmplpro.git";
   inputs.src-tmplpro-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
