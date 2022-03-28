@@ -11,7 +11,6 @@
   inputs.src-tmplpro-unstable.ref   = "refs/heads/unstable";
   inputs.src-tmplpro-unstable.owner = "mjfh";
   inputs.src-tmplpro-unstable.repo  = "nim-tmplpro";
-  inputs.src-tmplpro-unstable.dir   = "";
   inputs.src-tmplpro-unstable.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

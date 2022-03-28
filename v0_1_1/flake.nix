@@ -11,7 +11,6 @@
   inputs.src-tmplpro-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-tmplpro-v0_1_1.owner = "mjfh";
   inputs.src-tmplpro-v0_1_1.repo  = "nim-tmplpro";
-  inputs.src-tmplpro-v0_1_1.dir   = "";
   inputs.src-tmplpro-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
